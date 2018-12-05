@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Gigflex Test for automation test suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name=" Gigflex Test Cases(failed)">
+    <classes>
+      <class name="com.gigflex.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateGigFlexLoginPage" invocation-numbers="1 2 3"/>
+        </methods>
+      </class> <!-- com.gigflex.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!--  Gigflex Test Cases(failed) -->
+</suite> <!-- Failed suite [Gigflex Test for automation test suite] -->
